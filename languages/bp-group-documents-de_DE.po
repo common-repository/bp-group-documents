@@ -1,0 +1,710 @@
+# Translation of the WordPress plugin   by .
+# Copyright (C) 2010
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bp-group-documents\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/buddypress-group-documents\n"
+"POT-Creation-Date: 2023-05-11 16:46+0300\n"
+"PO-Revision-Date: 2023-05-11 16:47+0300\n"
+"Last-Translator: Lena Stergatou <aqua6617@yahoo.com>\n"
+"Language-Team: Michael Berra <michael.berra@gmail.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: class-bp-group-documents-plugin-extension.php:24
+#: class-bp-group-documents-plugin-extension.php:36 include/activity.php:186
+#: include/admin.php:20 include/admin.php:358
+#: include/bp_group_documents_functions.php:51 include/widgets.php:54
+#: include/widgets.php:207 include/widgets.php:371 include/widgets.php:514
+#: loader.php:132
+msgid "Documents"
+msgstr "Dokumente"
+
+#: class-bp-group-documents-plugin-extension.php:82
+#, fuzzy
+msgid "There was an error saving, please try again"
+msgstr ""
+"Es gab ein Problem beim Speichern deiner Datei, bitte versuche es nochmals."
+
+#: class-bp-group-documents-plugin-extension.php:84
+#, fuzzy
+msgid "Settings Saved."
+msgstr "Einstellungen gespeichert."
+
+#: class-bp-group-documents-plugin-extension.php:119
+#, fuzzy
+msgid "Category List for"
+msgstr "Gruppen-Dokumente Admin"
+
+#: class-bp-group-documents-plugin-extension.php:132
+#, fuzzy
+msgid "Update"
+msgstr "%d neue Beiträge"
+
+#: class-bp-group-documents-plugin-extension.php:137
+#, php-format
+msgid "Are you sure you want to delete category <b>%s</b>?"
+msgstr ""
+
+#: class-bp-group-documents-plugin-extension.php:140
+#, php-format
+msgid "Any %s in the category will be left with no category."
+msgstr ""
+
+#: class-bp-group-documents-plugin-extension.php:144
+msgid "You can later assign them to another  category."
+msgstr ""
+
+#: class-bp-group-documents-plugin-extension.php:147
+#: class-bp-group-documents-plugin-extension.php:156
+#: templates/groups/single/documents.php:152
+msgid "Delete"
+msgstr "Löschen"
+
+#: class-bp-group-documents-plugin-extension.php:155
+#: templates/groups/single/documents.php:148
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: class-bp-group-documents-plugin-extension.php:171
+#, fuzzy
+msgid "Save Changes"
+msgstr "Einstellungen speichern"
+
+#: class-bp-group-documents-plugin-extension.php:185
+#, fuzzy
+msgid "Upload Permissions:"
+msgstr "Ein neues Dokument hochladen"
+
+#: class-bp-group-documents-plugin-extension.php:200
+#: class-bp-group-documents-plugin-extension.php:212
+#, fuzzy
+msgid "All Group Members"
+msgstr "Gruppe wählen..."
+
+#: class-bp-group-documents-plugin-extension.php:209
+#: class-bp-group-documents-plugin-extension.php:216
+msgid "Only Group's Administrators and Moderators"
+msgstr ""
+
+#: class-bp-group-documents-plugin-extension.php:248
+#, php-format
+msgid "Group %s category deleted successfully"
+msgstr ""
+
+#: class-bp-group-documents-plugin-extension.php:254
+#: class-bp-group-documents-plugin-extension.php:270
+#, php-format
+msgid "No changes were made. This %s category name is used already"
+msgstr ""
+
+#: class-bp-group-documents-plugin-extension.php:258
+#, fuzzy, php-format
+msgid "Group %s category renamed successfully"
+msgstr "Dokument erfolgreich verschoben."
+
+#: class-bp-group-documents-plugin-extension.php:267
+#, php-format
+msgid "New group %s category created"
+msgstr ""
+
+#: class-bp-group-documents-plugin-extension.php:283
+#, fuzzy
+msgid "Upload Permissions changed successfully"
+msgstr "Dokument erfolgreich verschoben."
+
+#: class-bp-group-documents-plugin-extension.php:290
+msgid "No changes were made. Either error or you didn't change anything"
+msgstr ""
+
+#: include/activity.php:18
+#, fuzzy, php-format
+#| msgid "%s uploaded the file: %s to %s"
+msgid "%1$s uploaded the file: %2$s to %3$s"
+msgstr "%s hat die Datei %s in %s hochgeladen"
+
+#: include/activity.php:42
+#, fuzzy, php-format
+#| msgid "%s edited the file: %s in %s"
+msgid "%1$s edited the file: %2$s in %3$s"
+msgstr "%s hat die Datei %s in %s bearbeitet"
+
+#: include/activity.php:64
+#, fuzzy, php-format
+#| msgid "%s deleted the file: %s from %s"
+msgid "%1$s deleted the file: %2$s from %3$s"
+msgstr "%s hat die Datei %s in %s gelöscht"
+
+#: include/activity.php:188 include/admin.php:369
+#, fuzzy, php-format
+msgid "Show New Group %s"
+msgstr "Gruppen-Dokumente"
+
+#: include/activity.php:190 include/admin.php:381
+#, fuzzy, php-format
+msgid "Show Group %s Edits"
+msgstr "Gruppen-Dokumente Admin"
+
+#: include/admin.php:101 include/admin.php:269
+#, fuzzy
+msgid "Settings"
+msgstr "Einstellungen speichern"
+
+#: include/admin.php:106
+msgid "Settings Updated."
+msgstr "Einstellungen gespeichert."
+
+#: include/admin.php:113
+msgid "Use this name instead of \"documents\" "
+msgstr ""
+
+#: include/admin.php:119 templates/groups/single/documents.php:215
+msgid "Valid File Formats"
+msgstr "Erlaubte Dateiformate"
+
+#: include/admin.php:125
+msgid "Items per Page"
+msgstr "Einträge pro Seite"
+
+#: include/admin.php:130
+#, fuzzy
+msgid "Upload Permission:"
+msgstr "Ein neues Dokument hochladen"
+
+#: include/admin.php:137
+msgid "Members &amp; Moderators"
+msgstr ""
+
+#: include/admin.php:144
+msgid "Moderators Only"
+msgstr ""
+
+#: include/admin.php:151
+msgid "Let individual moderators decide"
+msgstr ""
+
+#: include/admin.php:154
+#, fuzzy
+msgid "Use Categories"
+msgstr "Zeige nur das Bild"
+
+#: include/admin.php:165
+msgid "Display Icons"
+msgstr "Zeige Icons"
+
+#: include/admin.php:176
+#, fuzzy
+#| msgid "Display File Size"
+msgid "Display File Owner"
+msgstr "Zeige Dateigrösse"
+
+#: include/admin.php:188
+#, fuzzy
+#| msgid "Display File Size"
+msgid "Display File Date"
+msgstr "Zeige Dateigrösse"
+
+#: include/admin.php:199
+msgid "Display File Size"
+msgstr "Zeige Dateigrösse"
+
+#: include/admin.php:210
+#, fuzzy
+msgid "Display File Downloads "
+msgstr "Zeige Dateigrösse"
+
+#: include/admin.php:222
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: include/admin.php:270
+#, fuzzy
+msgid "Buddypress Group Documents"
+msgstr "Gruppe"
+
+#: include/bp_group_documents_functions.php:52
+msgid "Group"
+msgstr "Gruppe"
+
+#: include/bp_group_documents_functions.php:59
+#: templates/groups/single/documents.php:13
+msgid "List"
+msgstr "Liste"
+
+#: include/bp_group_documents_functions.php:75
+#: include/class-bp-group-documents-template.php:86
+#: include/class-bp-group-documents-template.php:121
+#: include/class-bp-group-documents-template.php:142
+#: include/class-bp-group-documents-template.php:218
+msgid "There was a security problem"
+msgstr "Es gab ein Sicherheitsproblem"
+
+#: include/bp_group_documents_functions.php:79
+#: include/class-bp-group-documents-template.php:242
+msgid "The item to delete could not be found"
+msgstr "Der zu löschende Eintrag wurde nicht gefunden"
+
+#: include/bp_group_documents_functions.php:190
+#, fuzzy
+msgid "Group Document Categories"
+msgstr "Dokument bearbeiten"
+
+#: include/class-bp-group-documents-template.php:118
+#: include/group-forum-attachments.php:62
+msgid "Document successfully uploaded"
+msgstr "Dokument erfolgreich hochgeladen"
+
+#: include/class-bp-group-documents-template.php:139
+msgid "Document successfully edited"
+msgstr "Dokument erfolgreich bearbeitet"
+
+#: include/class-bp-group-documents-template.php:187
+#: templates/groups/single/documents.php:293
+msgid "Upload a New Document"
+msgstr "Ein neues Dokument hochladen"
+
+#: include/class-bp-group-documents-template.php:210
+msgid "You don't have permission to upload files"
+msgstr ""
+
+#: include/class-bp-group-documents-template.php:222
+#, fuzzy
+msgid "The item to edit could not be found"
+msgstr "Der zu löschende Eintrag wurde nicht gefunden"
+
+#: include/class-bp-group-documents-template.php:234
+msgid "Edit Document"
+msgstr "Dokument bearbeiten"
+
+#: include/class-bp-group-documents-template.php:246
+msgid "Document successfully deleted"
+msgstr "Dokument erfolgreich gelöscht"
+
+#: include/class-bp-group-documents-template.php:249
+msgid "You don't have permission to delete the file"
+msgstr ""
+
+#: include/class-bp-group-documents-template.php:380
+#, fuzzy, php-format
+#| msgid "Viewing item %s to %s (of %s items)"
+msgid "Viewing item %1$s to %2$s (of %3$s items)"
+msgstr "Zeige Dokument %s bis %s (von %s Dokumenten)"
+
+#: include/class-bp-group-documents-template.php:423 include/widgets.php:610
+msgid "Add New"
+msgstr ""
+
+#: include/class-bp-group-documents.php:224
+msgid "Whoops!  There was no file selected for upload."
+msgstr "Uuuuuups! Es wurde keine Datei für den Upload ausgewählt."
+
+#: include/class-bp-group-documents.php:229
+msgid "The type of document submitted is not allowed"
+msgstr "Dieses Dateiformat ist nicht erlaubt"
+
+#: include/class-bp-group-documents.php:237
+msgid ""
+"There was a problem; your file is larger than is allowed by the site "
+"administrator."
+msgstr "Es gab ein Problem: deine Datei ist grösser, als erlaubt."
+
+#: include/class-bp-group-documents.php:240
+msgid "There was a problem; the file was only partially uploaded."
+msgstr "Es gab ein Problem: die Datei wurde nur teilweise hochgeladen."
+
+#: include/class-bp-group-documents.php:243
+msgid "There was a problem; no file was found for the upload."
+msgstr "Es gab ein Problem: es wurde keine Datei für den Upload gefunden."
+
+#: include/class-bp-group-documents.php:246
+msgid "There was a problem; the temporary folder for the file is missing."
+msgstr "Es gab ein Problem: der temporäre Ordner für die Datei fehlt."
+
+#: include/class-bp-group-documents.php:249
+msgid "There was a problem; the file could not be saved."
+msgstr "Es gab ein Problem: die Datei konnte nicht gespeichert werden."
+
+#: include/class-bp-group-documents.php:270
+msgid "There was a problem saving your file, please try again."
+msgstr ""
+"Es gab ein Problem beim Speichern deiner Datei, bitte versuche es nochmals."
+
+#: include/class-bp-group-documents.php:479
+#, fuzzy
+msgid "In category:"
+msgstr "%s veröffentlicht  in %s"
+
+#: include/cssjs.php:24
+#, fuzzy
+msgid "New Category...!"
+msgstr "Ein neues Dokument hochladen"
+
+#: include/cssjs.php:25
+msgid "You must select a file to upload!"
+msgstr ""
+
+#: include/cssjs.php:26
+msgid "Are you sure you wish to permanently delete this document?"
+msgstr ""
+
+#: include/cssjs.php:27
+msgid "Add"
+msgstr ""
+
+#: include/filters.php:92
+#, fuzzy
+msgid "That group does not exist."
+msgstr "Gruppe wählen..."
+
+#: include/filters.php:101
+#, php-format
+msgid ""
+"You must be a logged-in member of the group %s to access this document. If "
+"you are a member of the group, please log into the site and try again."
+msgstr ""
+
+#: include/filters.php:146
+#, fuzzy
+msgid "The file could not be found."
+msgstr "Es gab ein Problem: die Datei konnte nicht gespeichert werden."
+
+#: include/group-forum-attachments.php:16
+#, fuzzy
+msgid "Upload document (+)"
+msgstr "Ein neues Dokument hochladen"
+
+#: include/group-forum-attachments.php:19
+#: templates/groups/single/documents.php:210
+msgid "Choose File:"
+msgstr "Datei wählen:"
+
+#: include/group-forum-attachments.php:24
+#: templates/groups/single/documents.php:236
+msgid "Display Name:"
+msgstr "Angezeigter Name:"
+
+#: include/group-forum-attachments.php:28
+#: templates/groups/single/documents.php:239
+msgid "Description:"
+msgstr "Beschreibung:"
+
+#: include/notifications.php:27
+msgid "A member uploads a document to a group you belong to"
+msgstr "Ein Mitglied hat ein Dokument in einer deiner Gruppen hochgeladen"
+
+#: include/notifications.php:33
+msgid ""
+"A member uploads a document to a group for which you are an moderator/admin"
+msgstr ""
+"Ein Mitglied hat ein Dokument in einer der Gruppen hochgeladen, in der du "
+"Moderator/Admin bist"
+
+#: include/notifications.php:62
+#, php-format
+msgid "A document was uploaded to %s"
+msgstr "Es wurde ein Dokument in %s hochgeladen"
+
+#: include/notifications.php:125
+#, fuzzy, php-format
+#| msgid ""
+#| "%s uploaded a new file: %s to the group: %s.\n"
+#| "\n"
+#| "To see %s's profile: %s\n"
+#| "\n"
+#| "To see the group %s's homepage: %s\n"
+#| "\n"
+#| "To download the new document directly: %s\n"
+#| "\n"
+#| "------------------------\n"
+msgid ""
+"%1$s uploaded a new file: %2$s to the group: %3$s.\n"
+"\n"
+"To see %4$s's profile: %5$s\n"
+"\n"
+"To see the group %6$s's homepage: %7$s\n"
+"\n"
+"To download the new document directly: %8$s\n"
+"\n"
+msgstr ""
+"%s hat die Datei %s in %s hochgeladen.\n"
+"\n"
+"Um %s's Profil zu sehen: %s\n"
+"\n"
+"Um die Homepage der Gruppe %s's zu sehen: %s\n"
+"\n"
+"Um das neue Dokument direkt herunterzuladen: %s\n"
+"\n"
+"------------------------\n"
+
+#: include/notifications.php:147
+#, php-format
+msgid "To disable these notifications please log in and go to: %s"
+msgstr ""
+"Um diese Benachrichtigungen abzustellen log dich bitte ein und geh zu: %s"
+
+#: include/widgets.php:57 include/widgets.php:73 include/widgets.php:90
+#: include/widgets.php:131 include/widgets.php:158
+#, fuzzy, php-format
+msgid "Recent Group %s"
+msgstr "Gruppe wählen..."
+
+#: include/widgets.php:59
+#, php-format
+msgid "The most recently uploaded group %s. Only from public groups"
+msgstr ""
+
+#: include/widgets.php:110 include/widgets.php:264 include/widgets.php:434
+#, fuzzy, php-format
+msgid "posted in %s"
+msgstr "Hochgeladen von %s am %s"
+
+#: include/widgets.php:116 include/widgets.php:275 include/widgets.php:440
+#: include/widgets.php:603
+#, fuzzy, php-format
+msgid "There are no %s to display."
+msgstr "Zeige Dateigrösse"
+
+#: include/widgets.php:167 include/widgets.php:316 include/widgets.php:487
+#: include/widgets.php:667
+#, fuzzy
+msgid "Title:"
+msgstr "Titel:"
+
+#: include/widgets.php:169 include/widgets.php:318
+#, fuzzy
+msgid "Filter by Group:"
+msgstr "Gruppe wählen..."
+
+#: include/widgets.php:171 include/widgets.php:320
+msgid "Select Group..."
+msgstr "Gruppe wählen..."
+
+#: include/widgets.php:188 include/widgets.php:337 include/widgets.php:489
+#: include/widgets.php:670
+#, fuzzy, php-format
+msgid "Show featured %s only"
+msgstr "Es gibt keine Dokumente anzuzeigen."
+
+#: include/widgets.php:191 include/widgets.php:346 include/widgets.php:497
+#: include/widgets.php:674
+msgid "Number of items to show:"
+msgstr "Anzahl Dokumente zu zeigen: "
+
+#: include/widgets.php:210 include/widgets.php:226 include/widgets.php:241
+#: include/widgets.php:283 include/widgets.php:305
+#, fuzzy, php-format
+msgid "Popular Group %s"
+msgstr "Gruppe wählen..."
+
+#: include/widgets.php:212
+#, php-format
+msgid "The most commonly downloaded group %s. Only for public groups"
+msgstr ""
+
+#: include/widgets.php:268
+msgid "downloads"
+msgstr ""
+
+#: include/widgets.php:354
+#, fuzzy
+msgid "Show downloads"
+msgstr "Anzahl Dokumente zu zeigen: "
+
+#: include/widgets.php:374 include/widgets.php:415 include/widgets.php:455
+#: include/widgets.php:478
+#, fuzzy, php-format
+msgid "%s in your groups"
+msgstr "Hochgeladen von %s am %s"
+
+#: include/widgets.php:376
+#, php-format
+msgid "%s for a logged in user's groups."
+msgstr ""
+
+#: include/widgets.php:406
+#, php-format
+msgid "Recent %s from your Groups"
+msgstr ""
+
+#: include/widgets.php:517
+#, fuzzy, php-format
+msgid "%s in this group"
+msgstr "Gruppe wählen..."
+
+#: include/widgets.php:519
+#, fuzzy, php-format
+msgid "%s for the current group."
+msgstr "Gruppe wählen..."
+
+#: include/widgets.php:549 include/widgets.php:555 include/widgets.php:630
+#: include/widgets.php:659
+#, fuzzy, php-format
+msgid "Recent %s for the group"
+msgstr "Gruppe wählen..."
+
+#: include/widgets.php:588 templates/groups/single/documents.php:127
+#, fuzzy, php-format
+#| msgid "Uploaded by %s on %s"
+msgid "Uploaded by %1$s on %2$s"
+msgstr "Hochgeladen von %s am %s"
+
+#: include/widgets.php:591 templates/groups/single/documents.php:130
+#, fuzzy, php-format
+#| msgid "Uploaded by %s on %s"
+msgid "Uploaded by %s"
+msgstr "Hochgeladen von %s am %s"
+
+#: include/widgets.php:594 templates/groups/single/documents.php:133
+#, fuzzy, php-format
+#| msgid "Uploaded by %s on %s"
+msgid "Uploaded on %s"
+msgstr "Hochgeladen von %s am %s"
+
+#: include/widgets.php:614
+msgid "View all"
+msgstr ""
+
+#: loader.php:308
+#, fuzzy
+#| msgid "Documents"
+msgid "Add documents"
+msgstr "Dokumente"
+
+#: loader.php:309
+msgid "Please select a group to upload to"
+msgstr ""
+
+#: loader.php:329
+#, php-format
+msgid "You don't have permission to upload files on group %s"
+msgstr ""
+
+#: templates/groups/single/documents.php:22
+#: templates/groups/single/documents.php:265
+msgid "Category:"
+msgstr ""
+
+#: templates/groups/single/documents.php:24
+msgid "All"
+msgstr "Alle"
+
+#: templates/groups/single/documents.php:35
+#: templates/groups/single/documents.php:59
+#, fuzzy
+msgid "Go"
+msgstr ""
+"Um diese Benachrichtigungen abzustellen log dich bitte ein und geh zu: %s"
+
+#: templates/groups/single/documents.php:41
+#, fuzzy
+msgid "Order by:"
+msgstr "Beiträge von %1$s ( @%2$s )"
+
+#: templates/groups/single/documents.php:47
+msgid "Newest"
+msgstr ""
+
+#: templates/groups/single/documents.php:52
+msgid "Alphabetical"
+msgstr ""
+
+#: templates/groups/single/documents.php:57
+msgid "Most Popular"
+msgstr ""
+
+#: templates/groups/single/documents.php:138
+msgid " downloads since then."
+msgstr ""
+
+#: templates/groups/single/documents.php:180
+#, fuzzy
+msgid "There are no documents in the selected category."
+msgstr "Uuuuuups! Es wurde keine Datei für den Upload ausgewählt."
+
+#: templates/groups/single/documents.php:182
+#, fuzzy
+msgid "There are no documents uploaded for this group."
+msgstr "Hochgeladen von %s am %s"
+
+#: templates/groups/single/documents.php:220
+#, fuzzy
+msgid "Document:"
+msgstr "Ein neues Dokument hochladen"
+
+#: templates/groups/single/documents.php:226
+#, fuzzy
+msgid "Featured Document"
+msgstr "Ein neues Dokument hochladen"
+
+#: templates/groups/single/documents.php:288
+msgid "Save"
+msgstr "Speichern"
+
+#, fuzzy
+#~ msgid "Settings saved successfully"
+#~ msgstr "Dokument erfolgreich verschoben."
+
+#~ msgid "Bulk File Uploads"
+#~ msgstr "Massen-Datei-Upload"
+
+#~ msgid "Move File"
+#~ msgstr "Datei verschieben"
+
+#, fuzzy
+#~ msgid "You must choose a group for the file."
+#~ msgstr "Du musst eine Gruppe für die Datei auswählen"
+
+#~ msgid "Document moved successfully."
+#~ msgstr "Dokument erfolgreich verschoben."
+
+#~ msgid "There was a problem saving the file info."
+#~ msgstr "Es gab ein Problem beim Speichern der Datei-Info."
+
+#~ msgid "There was a problem moving the file."
+#~ msgstr "Es gab ein Problem beim verschieben der Datei."
+
+#~ msgid "%s Documents Moved."
+#~ msgstr "%s Dokumente verschoben."
+
+#~ msgid "Group Documents Admin"
+#~ msgstr "Gruppen-Dokumente Admin"
+
+#~ msgid "Group Documents"
+#~ msgstr "Gruppen-Dokumente"
+
+#~ msgid "Document List"
+#~ msgstr "Liste der Dokumente"
+
+#~ msgid "Submit"
+#~ msgstr "Veröffentlichen"
+
+#~ msgid "File Name"
+#~ msgstr "Dateiname"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Description"
+#~ msgstr "Beschreibung"
+
+#~ msgid ""
+#~ "The webserver does not appear to have write access to the document folder:"
+#~ msgstr ""
+#~ "Der Webserver scheint keinen Schreibzugriff auf den Ordner zu haben: "
+
+#~ msgid ""
+#~ "Please check this, as must be enabled for the Group Documents plugin to "
+#~ "work correctly."
+#~ msgstr ""
+#~ "Bitte überprüfe das, denn es muss aktiviert sein, damit das Gruppe-"
+#~ "Dokumente Plugin korrekt funktioniert."
+
+#~ msgid "Click here</a> to return to the dashboard"
+#~ msgstr "Klicke hier </a> um zum Dashboard zurückzugelangen"
